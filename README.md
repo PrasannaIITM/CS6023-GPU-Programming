@@ -1,5 +1,5 @@
-Sudoku solver on GPU
-
+## Sudoku solver on GPU
+### Course Project for the course CS6023(GPU Programming) at IIT Madras
 cpu.c -> contains the cpu code for solving sudoku using backtracking.
 
 bt.cu -> contains the gpu code for solving sudoku by the basic backtracking algorithm. initially we expand the search tree on cpu, depending on the 
